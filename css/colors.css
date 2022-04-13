@@ -1,0 +1,167 @@
+/**************************/
+/* SET COLORS HERE TO USE */
+/**************************/
+:root {
+    --base: rgb(0, 0, 0);
+    --contrast-1: rgb(255, 136, 0);
+    --contrast-2: rgb(255, 180, 0);
+    --accent-1: rgb(202, 202, 202);
+    --accent-2: rgb(242, 246, 247);
+    --light: rgb(255, 255, 255);
+    --dark: rgb(0, 0, 0);
+}
+
+.tx-base {
+    color: var(--base);
+}
+.tx-contrast-1 {
+    color: var(--contrast-1);
+}
+.tx-contrast-2 {
+    color: var(--contrast-2);
+}
+.tx-accent-1 {
+    color: var(--accent-1);
+}
+.tx-accent-2 {
+    color: var(--accent-2);
+}
+.tx-light {
+    color: var(--light);
+}
+.tx-dark {
+    color: var(--dark);
+}
+
+.tx-b-base::before {
+    color: var(--base);
+}
+.tx-b-contrast-1::before {
+    color: var(--contrast-1);
+}
+.tx-b-contrast-2::before {
+    color: var(--contrast-2);
+}
+.tx-b-accent-1::before {
+    color: var(--accent-1);
+}
+.tx-b-accent-2::before {
+    color: var(--accent-2);
+}
+.tx-b-light::before {
+    color: var(--light);
+}
+.tx-b-dark::before {
+    color: var(--dark);
+}
+
+.tx-a-base::after {
+    color: var(--base);
+}
+.tx-a-contrast-1::after {
+    color: var(--contrast-1);
+}
+.tx-a-contrast-2::after {
+    color: var(--contrast-2);
+}
+.tx-a-accent-1::after {
+    color: var(--accent-1);
+}
+.tx-a-accent-2::after {
+    color: var(--accent-2);
+}
+.tx-a-ligh::aftert {
+    color: var(--light);
+}
+.tx-a-dark::after {
+    color: var(--dark);
+}
+
+.bg-base {
+    background: var(--base);
+}
+.bg-contrast-1 {
+    background: var(--contrast-1);
+}
+.bg-contrast-2 {
+    background: var(--contrast-2);
+}
+.bg-accent-1 {
+    background: var(--accent-1);
+}
+.bg-accent-2 {
+    background: var(--accent-2);
+}
+.bg-light {
+    background: var(--light);
+}
+.bg-dark {
+    background: var(--dark);
+}
+
+.bg-b-base::before {
+    background: var(--base);
+}
+.bg-b-contrast-1::before {
+    background: var(--contrast-1);
+}
+.bg-b-contrast-2::before {
+    background: var(--contrast-2);
+}
+.bg-b-accent-1::before {
+    background: var(--accent-1);
+}
+.bg-b-accent-2::before {
+    background: var(--accent-2);
+}
+.bg-b-light::before {
+    background: var(--light);
+}
+.bg-b-dark::before {
+    background: var(--dark);
+}
+
+.bg-a-base::after {
+    background: var(--base);
+}
+.bg-a-contrast-1::after {
+    background: var(--contrast-1);
+}
+.bg-a-contrast-2::after {
+    background: var(--contrast-2);
+}
+.bg-a-accent-1::after {
+    background: var(--accent-1);
+}
+.bg-a-accent-2::after {
+    background: var(--accent-2);
+}
+.bg-a-ligh::aftert {
+    background: var(--light);
+}
+.bg-a-dark::after {
+    background: var(--dark);
+}
+
+
+.br-base {
+    border-color: var(--base);
+}
+.br-contrast-1 {
+    border-color: var(--contrast-1);
+}
+.br-contrast-2 {
+    border-color: var(--contrast-2);
+}
+.br-accent-1 {
+    border-color: var(--accent-1);
+}
+.br-accent-2 {
+    border-color: var(--accent-2);
+}
+.br-light {
+    border-color: var(--light);
+}
+.br-dark {
+    border-color: var(--dark);
+}

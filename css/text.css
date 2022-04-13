@@ -1,0 +1,133 @@
+/******************************************
+/* GOOGLE FONTS
+/*******************************************/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;700&display=swap');
+
+/********************************/
+/* SET INITIAL TEXT VALUES HERE */
+/********************************/
+:root {
+
+    --tx-size: 62.5%;
+    --h1: 4.5rem;
+    --h2: 3.25rem;
+    --h3: 0rem;
+    --h4: 0rem;
+    --h5: 0rem;
+    --h6: 0rem;
+    --p: 2rem;
+    --span: 1.625rem;
+    --font-1: 'Merriweather Sans', sans-serif;
+    --font-2: Arial, sans-serif;
+    --font-3: 'Josefin Sans', sans-serif;
+}
+
+html {
+
+    font: normal 400 var(--tx-size) var(--font-2);
+}
+
+h1, h1 > * {
+    font-size: var(--h1);
+}
+h2, h2 > * {
+    font-size: var(--h2);
+}
+h3, h3 > * {
+    font-size: var(--h3);
+}
+h4, h4 > * {
+    font-size: var(--h4);
+}
+h5, h5 > * {
+    font-size: var(--h5);
+}
+h6, h6 > * {
+    font-size: var(--h6);
+}
+p {
+    font-size: var(--p);
+}
+span {
+    font-size: var(--span);
+}
+
+.font-1 {
+    font-family: var(--font-1);
+}
+.font-2 {
+    font-family: var(--font-1);
+}
+.font-3 {
+    font-family: var(--font-1);
+}
+
+.tx-900 {
+    font-size: calc(var(--tx-size) * 9);
+}
+.tx-800 {
+    font-size: calc(var(--tx-size) * 8);
+}
+.tx-700 {
+    font-size: calc(var(--tx-size) * 7);
+}
+.tx-600 {
+    font-size: calc(var(--tx-size) * 6);
+}
+.tx-500 {
+    font-size: calc(var(--tx-size) * 5);
+}
+.tx-400 {
+    font-size: calc(var(--tx-size) * 4);
+}
+.tx-300 {
+    font-size: calc(var(--tx-size) * 3);
+}
+.tx-200 {
+    font-size: calc(var(--tx-size) * 2);
+}
+.tx-100 {
+    font-size: calc(var(--tx-size) * 1);
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+.lowercase {
+    text-transform: lowercase;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+
+.bold {
+    font-weight: 700;
+}
+.normal {
+    font-weight: 400;
+}
+.light {
+    font-weight: 200;
+}
+
+.ls-100 {
+    letter-spacing: -0.2rem;
+}
+.ls-200 {
+    letter-spacing: -0.1rem;
+}
+.ls-300 {
+    letter-spacing: 0rem;
+}
+.ls-400 {
+    letter-spacing: .05rem;
+}
+.ls-500 {
+    letter-spacing: .1rem;
+}
+.ls-600 {
+    letter-spacing: .2rem;
+}
